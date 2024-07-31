@@ -60,4 +60,4 @@ def distance(v: Vector, w: Vector) -> float:
 assert add([1, 2, 3], [4, 5, 6]) == [5, 7, 9]
 
 # calcular a distancia entre 2 pontos
-print(distance([7, 3], [3, 4]))
+print(distance([8, 9], [3, 5]))
