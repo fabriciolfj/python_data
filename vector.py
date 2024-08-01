@@ -39,6 +39,7 @@ def vector_sum(vectors: List[Vector]) -> Vector:
     return [sum(vector[i] for vector in vectors) for i in range(num_elements)]
 
 
+#soma os produtos pares de elementos correspondentes
 def dot(v: Vector, w: Vector) -> float:
     assert len(v) == len(w), "vectors must be the same length"
 
