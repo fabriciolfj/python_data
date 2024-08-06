@@ -1,4 +1,5 @@
-from typing import Tuple import math
+from typing import Tuple
+import math
 
 def normal_approximaton_to_binomial(n: int, p: float) -> Tuple[float, float]:
     mu = p * n
