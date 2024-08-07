@@ -20,8 +20,9 @@ def correlacao(xs: List[float], ys: List[float]) -> float:
     else:
         return 0
 
+
 num_friends = [2, 3, 5, 9, 9, 3]
-num_minutes = [2,30, 5, 10, 9, 3]
+num_minutes = [2, 30, 5, 10, 9, 3]
 
 result = correlacao(num_friends, num_minutes)
 print(result)
